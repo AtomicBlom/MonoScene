@@ -63,7 +63,7 @@ namespace MonoScene.Graphics.Content
     {
         #region lifecycle
 
-        protected RigidDrawableContent(RigidDrawableContent other)
+        internal RigidDrawableContent(RigidDrawableContent other)
             : base(other)
         {
             this._NodeIndex = other._NodeIndex;
@@ -100,7 +100,7 @@ namespace MonoScene.Graphics.Content
     {
         #region lifecycle
 
-        protected SkinnedDrawableContent(SkinnedDrawableContent other)
+        internal SkinnedDrawableContent(SkinnedDrawableContent other)
             : base(other)
         {
             this._MorphNodeIndex = other._MorphNodeIndex;

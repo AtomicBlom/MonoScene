@@ -31,8 +31,8 @@ namespace MonoScene.Graphics
         [System.Diagnostics.DebuggerBrowsable(System.Diagnostics.DebuggerBrowsableState.Never)]
         private readonly List<MeshPart> _Primitives = new List<MeshPart>();
 
-        [System.Diagnostics.DebuggerBrowsable(System.Diagnostics.DebuggerBrowsableState.Never)]
-        private IReadOnlyList<Effect> _Effects;
+        //[System.Diagnostics.DebuggerBrowsable(System.Diagnostics.DebuggerBrowsableState.Never)]
+        //private IReadOnlyList<Effect> _Effects;
 
         [System.Diagnostics.DebuggerBrowsable(System.Diagnostics.DebuggerBrowsableState.Never)]
         private IReadOnlyList<MeshPart> _OpaquePrimitives;

@@ -28,7 +28,9 @@ namespace MonoScene.Graphics
         /// - Index of value <see cref="COMPLEMENT_INDEX"/> points to the Mesh master positions.
         /// - All other indices point to Mesh MorphTarget[index] positions.
         /// </summary>
+#pragma warning disable 649 //Assumed this will be implemented in the future
         private MORPHINFLUENCES _Weights;
+#pragma warning restore 649
 
         public const int COMPLEMENT_INDEX = 65536;
 
@@ -36,7 +38,9 @@ namespace MonoScene.Graphics
         /// True if morph targets represent absolute values.
         /// False if morph targets represent values relative to master value.
         /// </summary>
+#pragma warning disable 649 //Assumed this will be implemented in the future
         private bool _AbsoluteMorphTargets;
+#pragma warning restore 649
 
         #endregion
 
